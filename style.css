@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: #30323d;
+}
+.container{
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.joke-wrapper{
+    background: #fff;
+    padding: 3rem 2em;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+}
+.title h1{
+    color: #5c80bc;
+    margin: 1rem 0;
+}
+#category{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+#setup{
+    margin: 1rem 0;
+}
+#delivery{
+    margin-bottom: 1.5rem;
+}
+#gen-joke-btn{
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.8rem;
+    background: #5c80bc;
+    color: #fff;
+    border: 2px solid #5c80bc;
+    border-radius: 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+/* #gen-joke-btn:hover{
+    background: #fff;
+    color: #5c80bc;
+    border-color: #5c80bc;
+} */
+#gen-joke-btn:focus{
+    outline: 0;
+}
+@media(min-width: 992px){
+    .joke-wrapper{
+        width: 680px;
+    }
+}
