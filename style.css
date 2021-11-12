@@ -58,11 +58,7 @@ body{
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
-/* #gen-joke-btn:hover{
-    background: #fff;
-    color: #5c80bc;
-    border-color: #5c80bc;
-} */
+
 #gen-joke-btn:focus{
     outline: 0;
 }
